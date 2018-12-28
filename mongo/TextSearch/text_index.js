@@ -1,0 +1,1 @@
+db.getCollection('Movie_collection').ensureIndex({post_text:"text"})

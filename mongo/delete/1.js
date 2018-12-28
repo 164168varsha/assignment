@@ -1,0 +1,1 @@
+db.Movie_collection.remove({"title":"Pee Wee Herman's Big Adventure"})

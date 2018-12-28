@@ -1,0 +1,1 @@
+db.getCollection('zipcodes').aggregate([{$group:{_id: "$city",total:{$sum:"$pop"}}},{$sort:{"total":-1}},{$limit:3}])

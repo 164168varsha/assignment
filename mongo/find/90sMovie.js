@@ -1,0 +1,1 @@
+db.getCollection('Movie_collection').find({"year":1990 })

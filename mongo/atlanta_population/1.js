@@ -1,0 +1,1 @@
+db.getCollection('zipcodes').find({$and:[{city:"ATLANTA"},{state:"GA"}]})
